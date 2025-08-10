@@ -1,5 +1,11 @@
 import React, { useState, useEffect, useMemo } from 'react'
 import { GraduationCap, Users, BookOpen } from 'lucide-react'
+import sapienzaLogo from '../assets/institutions/sapienza-logo.png'
+import bolognaBsLogo from '../assets/institutions/bologna-business-school-logo.png'
+import torVergataLogo from '../assets/institutions/tor-vergata-logo.png'
+import uniboLogo from '../assets/institutions/unibo-logo.png'
+import frescobaldiLogo from '../assets/institutions/frescobaldi-logo.png'
+import martiniLogo from '../assets/institutions/martini-logo.jpg'
 
 const AcademicExperience = () => {
   const [isNarrowScreen, setIsNarrowScreen] = useState(false)
@@ -27,7 +33,7 @@ const AcademicExperience = () => {
       period: "November 2023 - Present",
       description: "Research topics: XAI, Multimodal Large Language Models, Speech Understanding and Generation, Music Information Retrieval",
       advisor: "Prof. Paolo Merialdo",
-      logo: "/src/assets/institutions/sapienza-logo.png"
+      logo: sapienzaLogo
     },
     {
       id: 2,
@@ -36,7 +42,7 @@ const AcademicExperience = () => {
       location: "Bologna, Italy", 
       period: "October 2019 - October 2020",
       description: "Thesis: Deep Learning Applications in Natural Language Processing",
-      logo: "/src/assets/institutions/bologna-business-school-logo.png"
+      logo: bolognaBsLogo
     },
     {
       id: 3,
@@ -45,7 +51,7 @@ const AcademicExperience = () => {
       location: "Rome, Italy",
       period: "October 2016 - October 2019",
       description: "Thesis: Beat Tracking algorithm",
-      logo: "/src/assets/institutions/tor-vergata-logo.png"
+      logo: torVergataLogo
     },
     {
       id: 4,
@@ -54,7 +60,7 @@ const AcademicExperience = () => {
       location: "Bologna, Italy",
       period: "September 2011 - March 2015",
       description: "Thesis: Financial Analysis of the Italian Stock Market",
-      logo: "/src/assets/institutions/unibo-logo.png"
+      logo: uniboLogo
     },
     {
       id: 5,
@@ -63,7 +69,7 @@ const AcademicExperience = () => {
       location: "Ferrara, Italy",
       period: "September 2015 - June 2017",
       description: "Thesis: Jazz Improvisation",
-      logo: "/src/assets/institutions/frescobaldi-logo.png"
+      logo: frescobaldiLogo
     },
     {
       id: 6,
@@ -71,7 +77,7 @@ const AcademicExperience = () => {
       institution: "Conservatorio di Musica G.B. Martini di Bologna",
       location: "Bologna, Italy",
       period: "November 2005 - February 2014",
-      logo: "/src/assets/institutions/martini-logo.jpg"
+      logo: martiniLogo
     }
   ]
 

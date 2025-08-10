@@ -1,5 +1,9 @@
 import React, { useState, useEffect, useMemo } from 'react'
 import { Calendar, MapPin } from 'lucide-react'
+import sonyCslLogo from '../assets/companies/sony-csl-logo.jpg'
+import translatedLogo from '../assets/companies/translated-logo.png'
+import paboloLogo from '../assets/companies/pabolo-logo.png'
+import musixmatchLogo from '../assets/companies/musixmatch-logo.png'
 
 const WorkExperience = () => {
   const [isNarrowScreen, setIsNarrowScreen] = useState(false)
@@ -25,7 +29,7 @@ const WorkExperience = () => {
       company: "Sony CSL",
       location: "Tokyo, Japan",
       period: "July 2025 - Present",
-      logo: "/src/assets/companies/sony-csl-logo.jpg", // Add your company logo here
+      logo: sonyCslLogo,
       description: [
         "Conducted research in AI applied to the music field",
       ]
@@ -36,7 +40,7 @@ const WorkExperience = () => {
       company: "Translated",
       location: "Rome, Italy",
       period: "April 2024 - April 2025",
-      logo: "/src/assets/companies/translated-logo.png", // Add your company logo here
+      logo: translatedLogo,
       description: [
         "Developed and maintained web applications using React and Node.js",
         "Participated in agile development processes",
@@ -50,7 +54,7 @@ const WorkExperience = () => {
       company: "Pabolo",
       location: "Karlsruhe, Germany",
       period: "June 2023 - November 2023",
-      logo: "/src/assets/companies/pabolo-logo.png", // No logo, will show initials
+      logo: paboloLogo,
       description: [
         "Developed and maintained AI models for the company's products",
         "Collaborated with the research team to improve the models' performance",
@@ -63,7 +67,7 @@ const WorkExperience = () => {
       company: "Musixmatch",
       location: "Bologna, Italy",
       period: "December 2020 - June 2023",
-      logo: "/src/assets/companies/musixmatch-logo.png", // No logo, will show initials
+      logo: musixmatchLogo,
       description: [
         "Developed and maintained AI models for the company's products",
         "Collaborated with the research team to improve the models' performance",
