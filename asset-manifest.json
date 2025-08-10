@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/pierfrancesco-melucci/static/css/main.aa88b968.css",
-    "main.js": "/pierfrancesco-melucci/static/js/main.c641eaa9.js",
-    "static/media/profile.jpg": "/pierfrancesco-melucci/static/media/profile.dc75f57441deb27340d5.jpg",
-    "static/media/frontAlbum.jpg": "/pierfrancesco-melucci/static/media/frontAlbum.58c844a4917cdc1d69fa.jpg",
-    "index.html": "/pierfrancesco-melucci/index.html",
-    "main.aa88b968.css.map": "/pierfrancesco-melucci/static/css/main.aa88b968.css.map",
-    "main.c641eaa9.js.map": "/pierfrancesco-melucci/static/js/main.c641eaa9.js.map"
+    "main.css": "/pier-maker92.github.io/static/css/main.aa88b968.css",
+    "main.js": "/pier-maker92.github.io/static/js/main.4ae2d27a.js",
+    "static/media/profile.jpg": "/pier-maker92.github.io/static/media/profile.dc75f57441deb27340d5.jpg",
+    "static/media/frontAlbum.jpg": "/pier-maker92.github.io/static/media/frontAlbum.58c844a4917cdc1d69fa.jpg",
+    "index.html": "/pier-maker92.github.io/index.html",
+    "main.aa88b968.css.map": "/pier-maker92.github.io/static/css/main.aa88b968.css.map",
+    "main.4ae2d27a.js.map": "/pier-maker92.github.io/static/js/main.4ae2d27a.js.map"
   },
   "entrypoints": [
     "static/css/main.aa88b968.css",
-    "static/js/main.c641eaa9.js"
+    "static/js/main.4ae2d27a.js"
   ]
 }
