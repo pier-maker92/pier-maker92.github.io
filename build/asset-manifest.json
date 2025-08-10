@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pierfrancesco-melucci/static/css/main.aa88b968.css",
+    "main.js": "/pierfrancesco-melucci/static/js/main.c641eaa9.js",
+    "static/media/profile.jpg": "/pierfrancesco-melucci/static/media/profile.dc75f57441deb27340d5.jpg",
+    "static/media/frontAlbum.jpg": "/pierfrancesco-melucci/static/media/frontAlbum.58c844a4917cdc1d69fa.jpg",
+    "index.html": "/pierfrancesco-melucci/index.html",
+    "main.aa88b968.css.map": "/pierfrancesco-melucci/static/css/main.aa88b968.css.map",
+    "main.c641eaa9.js.map": "/pierfrancesco-melucci/static/js/main.c641eaa9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa88b968.css",
+    "static/js/main.c641eaa9.js"
+  ]
+}

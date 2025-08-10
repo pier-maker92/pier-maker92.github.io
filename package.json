@@ -1,7 +1,7 @@
 {
   "homepage": "https://pier-maker92.github.io/pierfrancesco-melucci",
   "name": "pierfrancesco-melucci",
-  "version": "1.0.0",
+  "version": "0.1",
   "description": "Personal website for Pierfrancesco Melucci, PhD Student",
   "type": "module",
   "scripts": {
@@ -18,7 +18,8 @@
     "axios": "^1.6.2",
     "lucide-react": "^0.294.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
