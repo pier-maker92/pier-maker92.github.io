@@ -41,7 +41,7 @@ const AcademicExperience = () => {
       institution: "Bologna Business School",
       location: "Bologna, Italy", 
       period: "October 2019 - October 2020",
-      description: "Thesis: Deep Learning Applications in Natural Language Processing",
+      description: "",//"Thesis: Deep Learning Applications in Natural Language Processing",
       logo: bolognaBsLogo
     },
     {
@@ -50,7 +50,7 @@ const AcademicExperience = () => {
       institution: "Tor Vergata University of Rome",
       location: "Rome, Italy",
       period: "October 2016 - October 2019",
-      description: "Thesis: Beat Tracking algorithm",
+      description: "",//"Thesis: Beat Tracking algorithm",
       logo: torVergataLogo
     },
     {
@@ -59,7 +59,7 @@ const AcademicExperience = () => {
       institution: "Alma Mater Studiorum University of Bologna",
       location: "Bologna, Italy",
       period: "September 2011 - March 2015",
-      description: "Thesis: Financial Analysis of the Italian Stock Market",
+      description: "",//"Thesis: Financial Analysis of the Italian Stock Market",
       logo: uniboLogo
     },
     {
@@ -68,7 +68,7 @@ const AcademicExperience = () => {
       institution: "Conservatorio di Musica G. Frescobaldi di Ferrara",
       location: "Ferrara, Italy",
       period: "September 2015 - June 2017",
-      description: "Thesis: Jazz Improvisation",
+      description: "", //"Thesis: Third Stream Jazz",
       logo: frescobaldiLogo
     },
     {

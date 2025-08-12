@@ -31,7 +31,7 @@ const WorkExperience = () => {
       period: "July 2025 - Present",
       logo: sonyCslLogo,
       description: [
-        "Conducted research in AI applied to the music field",
+        "Conducted research in AI applied to the music field.",
       ]
     },
     {
@@ -42,10 +42,9 @@ const WorkExperience = () => {
       period: "April 2024 - April 2025",
       logo: translatedLogo,
       description: [
-        "Developed and maintained web applications using React and Node.js",
-        "Participated in agile development processes",
-        "Collaborated with cross-functional teams",
-        "Implemented automated testing procedures"
+        <span>Researched speech and multimodal AI within the <a href="https://www.meetween.eu/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary-600 font-medium border-b border-gray-300 hover:border-primary-500 transition-colors duration-200">Meetween</a> project. <svg className="inline w-3 h-3 ml-1 text-gray-400" fill="currentColor" viewBox="0 0 20 20"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"/><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"/></svg></span>,
+        <span>Co-developed the first release of <a href="https://huggingface.co/collections/meetween/speechlmm-v1-687671f454992bed468d59bf" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary-600 font-medium border-b border-gray-300 hover:border-primary-500 transition-colors duration-200">SpeechLMM</a>, Multimodal-LLM for speech understanding and generation. <svg className="inline w-3 h-3 ml-1 text-gray-400" fill="currentColor" viewBox="0 0 20 20"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"/><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"/></svg></span>,
+        <span><a href="https://api.wandb.ai/links/meetween/5ruw1tie" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary-600 font-medium border-b border-gray-300 hover:border-primary-500 transition-colors duration-200">SpeechLMM training journal</a> <svg className="inline w-3 h-3 ml-1 text-gray-400" fill="currentColor" viewBox="0 0 20 20"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"/><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"/></svg></span>
       ]
     },
     {
@@ -56,9 +55,8 @@ const WorkExperience = () => {
       period: "June 2023 - November 2023",
       logo: paboloLogo,
       description: [
-        "Developed and maintained AI models for the company's products",
-        "Collaborated with the research team to improve the models' performance",
-        "Implemented automated testing procedures"
+        "Training operations on diffusion models for video generation.",
+        "Developed and optimized data pipelines for efficient handling and processing of large-scale datasets.",
       ]
     },
     {
@@ -69,10 +67,9 @@ const WorkExperience = () => {
       period: "December 2020 - June 2023",
       logo: musixmatchLogo,
       description: [
-        "Developed and maintained AI models for the company's products",
-        "Collaborated with the research team to improve the models' performance",
-        "Implemented automated testing procedures"
-      ]
+        "Applied Natural Language Processing (NLP) and Music Information Retrieval (MIR) to music and lyrics.",
+        "Developed neural network systems for automatic song structure detection from lyrics, deployed at scale for millions of songs."
+    ]
     }
   ]
 
@@ -88,7 +85,7 @@ const WorkExperience = () => {
     )
     
     // Base height + dynamic height based on content
-    const baseHeight = 360 // Reduced base height for more compact cards
+    const baseHeight = 375 // Reduced base height for more compact cards
     const contentFactor = Math.ceil(maxContentLength / 180) // 180 chars per height unit
     const dynamicHeight = baseHeight + (contentFactor * 32) // 32px per content unit (reduced from 35px)
     
