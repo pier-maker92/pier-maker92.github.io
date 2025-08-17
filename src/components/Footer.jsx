@@ -1,5 +1,5 @@
 import React from 'react'
-import { Mail, Linkedin, Github, Heart } from 'lucide-react'
+import { Mail, Linkedin, Github, Heart, GraduationCap } from 'lucide-react'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
@@ -12,18 +12,18 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">Pierfrancesco Melucci</h3>
             <p className="text-gray-300 mb-4">
-              PhD Student passionate about research and innovation in computer science.
+              PhD Student in AI, speech/audio/music understanding and generation.
             </p>
             <div className="flex space-x-4">
               <a
-                href="mailto:your.email@university.edu"
+                href="mailto:pierfrancesco.melucci@gmail.com"
                 className="text-gray-400 hover:text-white transition-colors duration-300"
                 aria-label="Email"
               >
                 <Mail className="h-6 w-6" />
               </a>
               <a
-                href="https://linkedin.com/in/yourprofile"
+                href="https://www.linkedin.com/in/pierfrancesco-melucci-86856a12a/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors duration-300"
@@ -32,13 +32,22 @@ const Footer = () => {
                 <Linkedin className="h-6 w-6" />
               </a>
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/pier-maker92"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors duration-300"
                 aria-label="GitHub"
               >
                 <Github className="h-6 w-6" />
+              </a>
+              <a
+                href="https://scholar.google.com/citations?user=Y3CbKMIAAAAJ&hl=it"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white transition-colors duration-300"
+                aria-label="Google Scholar"
+              >
+                <GraduationCap className="h-6 w-6" />
               </a>
             </div>
           </div>
@@ -77,6 +86,14 @@ const Footer = () => {
                   className="text-gray-300 hover:text-white transition-colors duration-300"
                 >
                   Publications
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => document.querySelector('#music')?.scrollIntoView({ behavior: 'smooth' })}
+                  className="text-gray-300 hover:text-white transition-colors duration-300"
+                >
+                  Music
                 </button>
               </li>
             </ul>
